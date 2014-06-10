@@ -1,14 +1,3 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/*   File:         wtime.c                                                   */
-/*   Description:  a timer that reports the current wall time                */
-/*                                                                           */
-/*   Author:  Wei-keng Liao                                                  */
-/*            ECE Department Northwestern University                         */
-/*            email: wkliao@ece.northwestern.edu                             */
-/*   Copyright, 2005, Wei-keng Liao                                          */
-/*                                                                           */
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
 #include <sys/time.h>
 #include <stdio.h>
 #include <stdlib.h>

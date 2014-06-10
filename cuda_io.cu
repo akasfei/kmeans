@@ -1,20 +1,3 @@
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/*   File:         file_io.c                                                 */
-/*   Description:  This program reads point data from a file                 */
-/*                 and write cluster output to files                         */
-/*   Input file format:                                                      */
-/*                 ascii  file: each line contains 1 data object             */
-/*                 binary file: first 4-byte integer is the number of data   */
-/*                 objects and 2nd integer is the no. of features (or        */
-/*                 coordinates) of each object                               */
-/*                                                                           */
-/*   Author:  Wei-keng Liao                                                  */
-/*            ECE Department Northwestern University                         */
-/*            email: wkliao@ece.northwestern.edu                             */
-/*   Copyright, 2005, Wei-keng Liao                                          */
-/*                                                                           */
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>     /* strtok() */

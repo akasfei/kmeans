@@ -43,7 +43,7 @@ CUDA_C_OBJ = $(CUDA_C_SRC:%.cu=%.o)
 CUDA_CU_OBJ = $(CUDA_CU_SRC:%.cu=%.o)
 
 cuda: $(CUDA_C_OBJ) $(CUDA_CU_OBJ)
-	$(NVCC) $(LDFLAGS) -o $@ $(CUDA_C_OBJ) $(CUDA_CU_OBJ)
+	$(NVCC) $(LDFLAGS) -o cuda_main $(CUDA_C_OBJ) $(CUDA_CU_OBJ)
 
 #---------------------------------------------------------------------
 clean:
